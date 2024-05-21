@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+       
+       var totalMarks= +prompt ('Enter Your Total Marks')
+       var obtained = +prompt ('Enter Your Obtained Marks')
+       
+       document.write('<h1>Marks Sheet</h1>');
+       document.write('<br>Total marks: ',totalMarks) 
+       document.write('<br>Marks obtained: ',obtained) 
+       document.write('<br>Percentage:',(obtained*100)/totalMarks,'%') 
+
+       document.write("<h1> Rusult of your Calculation<h1/>")
+
+       var num1 = +prompt('enter your 1st number')
+       var math = prompt ('enter your mathematic opertore')
+       var num2 = +prompt('enter your 2nd number')
+    
+
+       if (math === "+"){
+       document.write ( "Resilt is ", num1 + num2)
+       }
+
+       else if (math === "-"){
+        document.write ("Resilt is ", num1 - num2)
+       }
+       else if (math === "%"){
+        document.write ( "Resilt is ", num1 % num2)
+       }
+
+       else if (math === "/"){
+        document.write ( "Resilt is ", num1 - num2)
+       }
+
+
+
+
+       document.write("<h1> Task 2 <h1>")
+
+
+       var number 
+
+       number = +prompt("enter number ")
+
+       document.write("number var value is ", number, "<br>")
+
+       ++number; 
+
+       document.write("after increamtent number var value is ", number, "<br>")
+
+       number += 7
+
+       document.write ("+7 number value is ", number, "<br>")
+
+
+       number--; 
+
+       document.write ("after decreamtent number value is ", number, "<br>")
+
+      number /= 3;
+
+      document.write ("after dividing by 3, The Remainder is ", number, "<br>")
+
+
+
+
+    document.write('<h1>Ticket Calculation<h1>')
+
+    var ticket = +prompt ('Cost of one ticket is 600 PKR. plz enter your quantity') 
+    var price = 600
+    var res =   price * ticket
+
+    document.write( ' Total Ticket bill is ', res )
+
+
+
+
+document.write('<br> <h1> Math Table <h1/>')
+
+
+    var tabnum = +prompt('enter your table number')
+
+         for (var i=1; i<=10; i++ ){
+            document.write("<div>")
+            document.write(tabnum + " x " + i + " = " + tabnum*i)
+            document.write("</div>")
+         }
+
+
+
+       document.write('<h1> Shopping Cart </h1> <br>')
+
+
+       var price1 = 600
+       var price2 = 700
+       var shipCharge = 100
+       var order1 = +prompt('item 1 price is PKR600 ' + ' Enter your order Quantity ')
+       var order2 = +prompt('item 2 price is PKR700 ' + ' Enter your order Quantity ')
+       var totalCost = ((price1 * order1) + (price2 * order2)) + shipCharge;
+
+       document.write(' <h4> Item 1 price is '+ price1 + '<br>')
+       document.write('  Quantity of item 1 is ' + order1 + '<br>')
+       document.write('  Item 2 price is '+ price2 + '<br>')
+       document.write(' Quantity of item 2 is ' + order2 + '<br>' )
+       document.write(' Shipping Charges is ' + shipCharge + '</h4>' )
+
+       document.write('Total Cost of your order is ' + totalCost )
+
+       document.write('<h1> Total Currency in PKR </h1> <br>')
+
+       var usd = 104.80
+       var riyal = 28
+
+       var numusd = +prompt ('Enter your USD Amount!')
+       var numriyal = +prompt ('Enter your SAR Amount!')
+
+       var totalusd = usd * numusd;
+       var totalriyal = riyal * numusd;
+
+       document.write( 'USD Dollor Exchange Rate is  ' + usd + '<br>')
+       document.write( 'SAR Riyal Exchange Rate is  ' + riyal + '<br>')
+
+
+       document.write (' Total USD Currency Converted to in PKR ' +  totalusd + '<br>')
+       document.write (' Total SAR Currency Converted to in PKR ' +  totalriyal + '<br>')
+
+
+
+       var somenum = 10
+       var result = (((somenum + 5) * 10) / 2 )
+
+       console.log(result)
+
+
+       document.write('<h1> Age Calculater </h1>')
+
+
+       var curYear = +prompt('Enter Your Current Year ')
+       var birthYear = +prompt('Enter Your Birth Year ')
+
+       var age1 = curYear - birthYear;
+       var age2 = age1 - 1;
+       
+
+       document.write ('Current Year ' + curYear + '<br>')
+       document.write('Birth Year ' + birthYear  + '<br>')
+       document.write ('Your Age is ' + age1 + ' or ' + age2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
